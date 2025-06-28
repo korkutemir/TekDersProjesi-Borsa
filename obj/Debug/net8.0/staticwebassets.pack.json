@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\korku\\source\\repos\\TekDersProjesi-Borsa\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TekDersProjesi-Borsa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TekDersProjesi-Borsa.props",
+      "PackagePath": "build\\TekDersProjesi-Borsa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TekDersProjesi-Borsa.props",
+      "PackagePath": "buildMultiTargeting\\TekDersProjesi-Borsa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TekDersProjesi-Borsa.props",
+      "PackagePath": "buildTransitive\\TekDersProjesi-Borsa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

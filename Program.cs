@@ -30,7 +30,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 builder.Services.AddMemoryCache();
 
 var app = builder.Build();
@@ -45,32 +44,15 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseCors();
-
 app.UseRouting();
 app.UseAuthorization();
 
+
 app.MapControllers();
+
 
 app.MapHub<CryptoHub>("/cryptohub");
 
-
-app.MapGet("/api/crypto/top", async (ICryptoService cryptoService, int count = 20) =>
-{
-    var cryptos = await cryptoService.GetTopCryptosAsync(count);
-    return Results.Ok(cryptos);
-});
-
-app.MapGet("/api/crypto/{symbol}", async (string symbol, ICryptoService cryptoService) =>
-{
-    var crypto = await cryptoService.GetCryptoPriceAsync(symbol);
-    return crypto != null ? Results.Ok(crypto) : Results.NotFound();
-});
-
-app.MapGet("/api/market/summary", async (ICryptoService cryptoService) =>
-{
-    var summary = await cryptoService.GetMarketSummaryAsync();
-    return Results.Ok(summary);
-});
 
 app.MapGet("/health", () => Results.Ok(new { Status = "Healthy", Timestamp = DateTime.UtcNow }));
 

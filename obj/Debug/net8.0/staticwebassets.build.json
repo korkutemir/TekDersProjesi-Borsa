@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "8gbvMv9C0BNnDs7uKUlDktsYOwPzcqzeDIjgOhOTHCY=",
+  "Source": "TekDersProjesi-Borsa",
+  "BasePath": "_content/TekDersProjesi-Borsa",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TekDersProjesi-Borsa\\wwwroot",
+      "Source": "TekDersProjesi-Borsa",
+      "ContentRoot": "C:\\Users\\korku\\source\\repos\\TekDersProjesi-Borsa\\wwwroot\\",
+      "BasePath": "_content/TekDersProjesi-Borsa",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\korku\\source\\repos\\TekDersProjesi-Borsa\\wwwroot\\index.html",
+      "SourceId": "TekDersProjesi-Borsa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\korku\\source\\repos\\TekDersProjesi-Borsa\\wwwroot\\",
+      "BasePath": "_content/TekDersProjesi-Borsa",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
